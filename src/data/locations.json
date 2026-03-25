@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Amalapuram Rural, Andhra Pradesh",
+    "location": "Andhra Pradesh",
+    "coverImage": "/images/Amalapuram Rural, Andhra Pradesh,.jpeg",
+    "images": [
+      "/images/Amalapuram Rural, Andhra Pradesh,.jpeg",
+      "/images/Amalapuram Rural, Andhra Pradesh,2.jpeg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Arthamuru, Andhra Pradesh",
+    "location": "Andhra Pradesh",
+    "coverImage": "/images/Arthamuru, Andhra Pradesh,.jpeg",
+    "images": [
+      "/images/Arthamuru, Andhra Pradesh,.jpeg",
+      "/images/Arthamuru, Andhra Pradesh,2.jpeg",
+      "/images/Arthamuru, Andhra Pradesh,3.jpeg",
+      "/images/Arthamuru, Andhra Pradesh,4.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bhatnavilli, Andhra Pradesh",
+    "location": "Andhra Pradesh",
+    "coverImage": "/images/Bhatnavilli, Andhra Pradesh,.jpeg",
+    "images": [
+      "/images/Bhatnavilli, Andhra Pradesh,.jpeg",
+      "/images/Bhatnavilli, Andhra Pradesh,2.jpeg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Krishna, Andhra Pradesh",
+    "location": "Andhra Pradesh",
+    "coverImage": "/images/Krishna, Andhra Pradesh,.jpeg",
+    "images": [
+      "/images/Krishna, Andhra Pradesh,.jpeg",
+      "/images/Krishna, Andhra Pradesh,2.jpeg",
+      "/images/Krishna, Andhra Pradesh,3.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Kunavaram, Andhra Pradesh",
+    "location": "Andhra Pradesh",
+    "coverImage": "/images/Kunavaram, Andhra Pradesh,.jpeg",
+    "images": [
+      "/images/Kunavaram, Andhra Pradesh,.jpeg",
+      "/images/Kunavaram, Andhra Pradesh,2.jpeg",
+      "/images/Kunavaram, Andhra Pradesh,3.jpeg",
+      "/images/Kunavaram, Andhra Pradesh,4.jpeg",
+      "/images/Kunavaram, Andhra Pradesh,5.jpeg",
+      "/images/Kunavaram, Andhra Pradesh2.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Other Places in Andhra",
+    "location": "Various Locations, Andhra Pradesh",
+    "coverImage": "/images/Ambedkar Konaseema, Andhra3.jpeg",
+    "images": [
+      "/images/Ambedkar Konaseema, Andhra3.jpeg",
+      "/images/Antarvedipalem Andhra Pradesh.jpeg",
+      "/images/Antarvedipalem,Andhra3.jpeg",
+      "/images/BR Ambedkar Konaseema,6.jpeg",
+      "/images/Challapalli, Andhra Pradesh,.jpeg",
+      "/images/Gopavaram, Andhra Pradesh,.jpeg",
+      "/images/Gudimula Kandrika,Andhra.jpeg",
+      "/images/Kakinada,Andhra Pradesh,.jpeg",
+      "/images/Mummidivaram, Andhra Pradesh,.jpeg",
+      "/images/Palakollu,Andhra.jpeg",
+      "/images/SakhinetiPalli,Andhra Pradesh,India.jpeg",
+      "/images/Sakhinetipalle, Andhra Pradesh,.jpeg",
+      "/images/WAAREE-solar-circuit.jpeg",
+      "/images/solar-camera.jpeg",
+      "/images/solar-rural.jpeg"
+    ]
+  }
+]

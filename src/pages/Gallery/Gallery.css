@@ -1,0 +1,172 @@
+.gallery-page {
+    background-color: var(--color-bg-white);
+    /* Light background */
+    color: var(--color-text-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery-header {
+    margin-bottom: 40px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.gallery-page .eyebrow {
+    color: var(--color-primary);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.gallery-header h1 {
+    font-size: 3.5rem;
+    color: var(--color-primary-dark);
+    /* Dark text */
+    font-weight: 700;
+}
+
+.reel-container {
+    position: relative;
+    width: 100%;
+    /* overflow: hidden; */
+    padding: 0 0 60px 0;
+}
+
+.gallery-track {
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    padding: 20px 5vw 60px;
+    /* Side padding */
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE */
+    scroll-behavior: smooth;
+    align-items: center;
+}
+
+.gallery-track::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
+}
+
+.reel-card {
+    width: 380px;
+    height: 520px;
+    background: white;
+    border-radius: 24px;
+    overflow: hidden;
+    scroll-snap-align: center;
+    position: relative;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+    /* Soft shadow */
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    flex-shrink: 0;
+    cursor: grab;
+}
+
+.reel-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
+}
+
+.placehoder-visual {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
+    /* Light placeholder */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.reel-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.reel-info h3 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+    color: white;
+    /* Text stays white over image */
+}
+
+.reel-info p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+}
+
+.reel-spacer {
+    min-width: 5vw;
+}
+
+.control-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--color-primary-dark);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.control-btn:hover {
+    background: var(--color-primary);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.control-btn.left {
+    left: 40px;
+}
+
+.control-btn.right {
+    right: 40px;
+}
+
+.gallery-footer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .reel-card {
+        width: 85vw;
+        height: 420px;
+    }
+
+    .gallery-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .control-btn {
+        display: none;
+        /* Hide buttons on mobile, swipe is better */
+    }
+}
