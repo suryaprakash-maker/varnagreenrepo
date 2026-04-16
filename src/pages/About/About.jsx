@@ -127,6 +127,26 @@ const About = () => {
                     </ul>
                 </RevealOnScroll>
 
+                <RevealOnScroll className="team-section mt-60" delay={300}>
+                    <h2>Leadership Team</h2>
+                    <div className="team-grid">
+                        <div className="team-member">
+                            <h3>Surya Prakash Sripathi</h3>
+                            <p className="team-title">Proprietor</p>
+                            <p className="team-description">
+                                "Driving innovation in sustainable energy solutions with a vision for a greener, more sustainable future for Telangana and beyond."
+                            </p>
+                        </div>
+                        <div className="team-member">
+                            <h3>Bonda Kasi Viswanatham</h3>
+                            <p className="team-title">Manager</p>
+                            <p className="team-description">
+                                "Ensuring operational excellence and delivering exceptional customer satisfaction in every solar installation and maintenance project."
+                            </p>
+                        </div>
+                    </div>
+                </RevealOnScroll>
+
                 <RevealOnScroll className="clients-section mt-60" delay={300}>
                     <h2>Our Clients & Government Projects</h2>
                     <p>Over our 1 year of expertise, we have successfully managed both private and public sector requirements.</p>

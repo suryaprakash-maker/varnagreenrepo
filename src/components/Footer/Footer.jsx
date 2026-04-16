@@ -30,7 +30,7 @@ const Footer = () => {
                     <h4>Contact Us</h4>
                     <div className="contact-item">
                         <MapPin size={18} className="icon" />
-                        <span>VDR Complex, 2-283/11, Road, Kamanagaruvu, Thandavapalle, Amalapuram, Andhra Pradesh 533201, India</span>
+                        <span>VDR Complex, 2-283/11, Road, Kamanagaruvu, Thandavapalle Road, Amalapuram, Andhra Pradesh 533201, India</span>
                     </div>
                     <div className="contact-item">
                         <Phone size={18} className="icon" />

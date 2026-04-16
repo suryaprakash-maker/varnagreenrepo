@@ -50,7 +50,8 @@ const Contact = () => {
                         <MapPin className="info-icon" />
                         <div>
                             <h4>Our Main Office</h4>
-                            <p>VDR Complex, 2-283/11, Road,<br />Kamanagaruvu, Thandavapalle,<br />Amalapuram, Andhra Pradesh 533201, India</p>
+                            <p>2-283/11, VDR COMPLEX, <br />THANDAVAPALLI ROAD,<br /> KAMANAGARUVU
+AMALAPURAM -533201, India.</p>
                         </div>
                     </div>
 
