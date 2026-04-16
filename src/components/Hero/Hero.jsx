@@ -30,8 +30,8 @@ const Hero = () => {
                 <div className="hero-content-left">
                     <span className="welcome-text">Welcome to</span>
                     <h1 className="brand-name">
-                        <span>VARNA</span>
-                        <span className="brand-accent">GREEN</span>
+                        <span  className="brand-accent">VARNA</span>
+                        <span className="brand-accent">GREEN TECHONOLOGIES</span>
                     </h1>
                     <div className="hero-tagline-wrapper">
                         <span className="hero-tagline">Expert Solar Installation & Services.</span>

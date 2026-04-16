@@ -58,7 +58,8 @@ const Contact = () => {
                         <Phone className="info-icon" />
                         <div>
                             <h4>Call Us</h4>
-                            <p>+91 98765 43210</p>
+                            <p>+91 94918 32235</p>
+                            <p>+91 70322 32235</p>
                         </div>
                     </div>
 
@@ -66,7 +67,7 @@ const Contact = () => {
                         <Mail className="info-icon" />
                         <div>
                             <h4>Email Us</h4>
-                            <p>info@varnagreen.com</p>
+                            <p>varnagreentechnologies@gmail.com</p>
                         </div>
                     </div>
 

@@ -85,7 +85,7 @@
 .brand-name {
     font-size: clamp(3rem, 12vw, 10rem);
     /* Massive responsive text */
-    font-weight: 800;
+    font-weight: 700;
     line-height: 0.9;
     color: #ffffff;
     display: flex;
@@ -113,6 +113,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.brand-accent {
+    font-size: 0.6em;
+    white-space: nowrap;
 }
 
 .hero-tagline-wrapper {
